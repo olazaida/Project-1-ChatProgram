@@ -14,12 +14,10 @@ class Client:
         
         msg = tkinter.Tk()
         msg.withdraw()
-        
-        
-        self.nickname = simpledialog.askstring("Nickname", "Please choose a nickname\t\t\t", parent=msg) #"\t" just to make the window wider
+       
         
         self.nickname = simpledialog.askstring("Nickname", "Please choose a nickname\t\t\t", parent=msg) #"\t" just to make the window wider
-     
+             
         self.gui_done = False
         self.running = True
         
